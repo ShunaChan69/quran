@@ -14,14 +14,14 @@ function App() {
     <BrowserRouter>
       <NavBars />
       <Routes>
-        <Route path="/react_quran/" element={<HomeApp />}></Route>
-        <Route path="/react_quran/surah/" element={<Home />}></Route>
-        <Route path="/react_quran/surah/:key" element={<Detail />}></Route>
-        <Route path="/react_quran/story/" element={<Story />}></Route>
-        <Route path="/react_quran/story/:key" element={<DetailNabi />}></Route>
-        <Route path="/react_quran/pray/" element={<Pray />}></Route>
-        <Route path="/react_quran/pray/" element={<Pray />}></Route>
-        <Route path="/react_quran/pray/:key" element={<DetailPray />}></Route>
+        <Route path="/quran/" element={<HomeApp />}></Route>
+        <Route path="/quran/surah/" element={<Home />}></Route>
+        <Route path="/quran/surah/:key" element={<Detail />}></Route>
+        <Route path="/quran/story/" element={<Story />}></Route>
+        <Route path="/quran/story/:key" element={<DetailNabi />}></Route>
+        <Route path="/quran/pray/" element={<Pray />}></Route>
+        <Route path="/quran/pray/" element={<Pray />}></Route>
+        <Route path="/quran/pray/:key" element={<DetailPray />}></Route>
       </Routes>
     </BrowserRouter>
   );
