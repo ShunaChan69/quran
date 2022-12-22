@@ -131,7 +131,7 @@ function HomeApp() {
       </div>
 
       <div className="penutup">
-        <h3>@iqbalronii</h3>
+        <h3>@eabdalmufid</h3>
       </div>
     </div>
   );
