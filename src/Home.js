@@ -31,7 +31,7 @@ function Home() {
           </Link>
         ))}
       </Container>
-      <div className="footer">@iqbalronii</div>
+      <div className="footer">@eabdalmufid</div>
     </div>
   );
 }
